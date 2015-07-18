@@ -1,0 +1,216 @@
+body {
+  background: #eee;
+}
+
+/** header */
+.header {
+  display: none;
+}
+
+/** banner */
+.banner {
+  width: 100%;
+  height: 350px;
+  /*border-bottom: 10px solid #fff;*/
+  background: #18bd9b;
+}
+
+.banner .container {
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 1200px;
+}
+
+.banner .container .logo {
+  margin: 0 auto;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, .3);
+  text-align: center;
+}
+
+.banner .container .logo img {
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.banner .container .title {
+  position: relative;
+  margin: 10px auto 0 auto;
+  width: 320px;
+  font-size: 38px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner .container .title .fa {
+  position: absolute;
+  right: -25px;
+  top: 14px;
+  font-size: 36px;
+  color: #323f50;
+  -webkit-transition: all .3s;
+     -moz-transition: all .3s;
+          transition: all .3s;
+}
+
+.banner .container .title .fa:hover {
+  color: #fff;
+}
+
+/** main-content */
+.main-content {
+}
+
+.main-content .title-bar {
+  line-height: 50px;
+  background: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  color: #666;
+  text-align: center;
+}
+
+.main-content .container {
+  margin: 0 auto;
+  max-width: 1200px;  
+}
+
+.about-list {
+  overflow: hidden;
+}
+
+.about-list:first-child {
+  margin-top: 20px;  
+}
+
+.about-list .list {
+  float: left;
+  margin: 20px;
+  width: 360px;
+}
+
+.about-list .card {
+  position: relative;
+  height: 100px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.about-list .card:before,
+.about-list .card:after {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  display: block;
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #eee;
+}
+
+.about-list .card:before {
+  left: -10px;
+}
+
+.about-list .card:after {
+  right: -10px;
+}
+
+.about-list .card .pic,
+.about-list .card .txt {
+  float: left;
+}
+
+.about-list .card .pic {
+  width: 130px;
+  height: 100px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background: #ccc;
+}
+
+.about-list .card .pic-s1 {
+  background: #27ae60;
+}
+
+.about-list .card .pic-s2 {
+  background: #ff6c60;
+}
+
+.about-list .card .pic-s3 {
+  background: #3498db;
+}
+
+.about-list .card .pic-s4 {
+  background: #969;  
+}
+
+.about-list .card .pic-s5 {
+  background: #4dbebd;
+}
+
+.about-list .card .pic-s6 {
+  background: #9aba49;
+}
+
+.about-list .card .photo {
+  margin: 10px 0 0 25px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  vertical-align: middle;
+  /*-webkit-transition: all .5s;*/
+}
+
+.about-list .card .photo:hover {
+  /*-webkit-transform: rotate(360deg);*/
+  opacity: .9;
+}
+
+.about-list .desc {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.about-list .card .txt {
+  padding: 20px;
+}
+
+.about-list .card .nike {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.about-list .card .nike,
+.about-list .card .nike a {
+  color: #18bd9b;
+}
+
+.about-list .card .nike a:hover {
+  text-decoration: underline !important;
+}
+
+.about-list .card .nike-team {
+  font-style: italic;
+  font-size: 20px;
+  color: #ccc;
+}
+
+
+/** footer */
+.footer {
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+}
+
+.footer .text {
+  line-height: 100px;
+  text-align: center;
+  color: #999;
+}
